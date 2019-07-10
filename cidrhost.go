@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 	"flag"
-	goCidr "github.com/apparentlymart/go-cidr/cidr"
+	goCidr "github.com/johnkim126/go-cidr/cidr"
 )
 
 func cidrhost(cidr string, hostIndex int) (string, error) {
