@@ -28,6 +28,6 @@ func main() {
 	flag.Parse()
 	ip, err := cidrhost(*cidr, *hostIndex)
 	if err == nil {
-		print(ip)
+		fmt.Print(ip)
 	}
 }
